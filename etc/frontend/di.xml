@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="WindAndeddu\Core\Plugin\Framework\App\Router\Base\DisableAccessToFrontend">
+        <arguments>
+            <argument name="allowedFrontNames" xsi:type="array">
+                <item name="loginascustomer" xsi:type="string">loginascustomer</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
